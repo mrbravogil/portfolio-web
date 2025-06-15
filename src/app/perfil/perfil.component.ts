@@ -13,16 +13,16 @@ import { Component } from '@angular/core';
       <div class="flex flex-col gap-12">
         <div class="flex flex-wrap gap-12 text-lg">
           <a href="https://www.linkedin.com/in/mrbravogil" target="_blank" class="flex items-center justify-center gap-4 bg-gray-900 rounded-4xl p-4 border border-purple-400 hover:bg-black">
-            <img src="assets/img/linkedin-logo.png" class="w-15" alt="">LinkedIn
+            <img src="assets/img/linkedin-logo.png" class="w-5" alt="">LinkedIn
           </a>
           <a href="https://github.com/mrbravogil" target="_blank" class="flex items-center justify-center gap-4 bg-gray-900 rounded-4xl p-4 border border-purple-400 hover:bg-black">
-            <img src="assets/img/github-logo.png" class="w-15" alt="">GitHub
+            <img src="assets/img/github-logo.png" class="w-5" alt="">GitHub
           </a>
           <a href="mailto:mrbravogil@gmail.com" class="flex items-center justify-center gap-4 bg-gray-900 rounded-4xl p-4 border border-purple-400 hover:underline hover:bg-black">
-            <img src="assets/img/mail-icon.png" class="w-15" alt="">mrbravogil&#64;gmail.com
+            <img src="assets/img/mail-icon.png" class="w-5" alt="">mrbravogil&#64;gmail.com
           </a>
           <a href="assets/docs/MariaRosaBravo-CV2025-es.pdf" download class="flex items-center justify-center gap-4 bg-gray-900 rounded-4xl p-4 border border-purple-400 hover:bg-black">
-            <img src="assets/img/filedownload-icon.png" class="w-15" alt="">CV
+            <img src="assets/img/filedownload-icon.png" class="w-5" alt="">CV
           </a>
         </div>
       </div>
