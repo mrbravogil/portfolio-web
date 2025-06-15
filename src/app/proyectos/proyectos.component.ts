@@ -1,46 +1,57 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { Proyecto } from '../models/proyecto.model';
+
 
 @Component({
   selector: 'app-proyectos',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   template: `
-  <div class="flex flex-col gap-20">
-        <h2 class="text-6xl flex gap-12 items-center"><img src="assets/img/programming.png" class="w-20" alt="">Proyectos</h2>
+    <div class="flex flex-col gap-20">
+      <h2 class="text-6xl flex gap-10 items-center">
+        <img src="assets/img/programming.png" class="w-20" alt=""> Proyectos
+      </h2>
 
-        <div class="flex flex-col gap-12">
-          <img src="assets/img/rotten-tomatoes-img.png" class="rounded-4xl" alt="">
-          <h2 class="text-5xl">Rotten Tomatoes</h2>
-          <p class="font-lexend text-4xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium repellendus deleniti numquam itaque quibusdam aliquam odit ducimus, nobis quia necessitatibus, non laudantium fugiat consectetur eius incidunt ab delectus, laboriosam dolore!</p>
-          <div class="flex gap-12 text-4xl">
-            <a href="https://github.com/mrbravogil/Rotten-Tomatoes-Clone" target="_blank"><button class="bg-purple-900 rounded-4xl p-5 border border-purple-400 hover:bg-black">Código</button></a>
-            <a href="" target="_blank"><button class="bg-purple-900 rounded-4xl p-5 border border-purple-400 hover:bg-black">Ver</button></a>
-          </div>
-          </div>
-
-        <div class="flex flex-col gap-12">
-          <img src="assets/img/custom-trivial-img.png" class="rounded-4xl" alt="">
-          <h2 class="text-5xl">Trivial Customizable</h2>
-          <p class="font-lexend text-4xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium repellendus deleniti numquam itaque quibusdam aliquam odit ducimus, nobis quia necessitatibus, non laudantium fugiat consectetur eius incidunt ab delectus, laboriosam dolore!</p>
-          <div class="flex gap-12 text-4xl">
-            <button class="bg-purple-900 rounded-4xl p-5 border border-purple-400">Código</button>
-            <button class="bg-purple-900 rounded-4xl p-5 border border-purple-400">Ver</button>
-          </div>
-          </div>
-        
-          
-            <div class="flex flex-col gap-12">
-              <img src="assets/img/rotten-tomatoes-img.png" class="rounded-4xl" alt="">
-              <h2 class="text-5xl">Rotten Tomatoes</h2>
-              <p class="font-lexend text-4xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium repellendus deleniti numquam itaque quibusdam aliquam odit ducimus, nobis quia necessitatibus, non laudantium fugiat consectetur eius incidunt ab delectus, laboriosam dolore!</p>
-              <div class="flex gap-12 text-4xl">
-                <button class="bg-purple-900 rounded-4xl p-5 border border-purple-400">Código</button>
-                <button class="bg-purple-900 rounded-4xl p-5 border border-purple-400">Ver</button>
-              </div>
-              </div>
-          
-      </div>`,
+      <div *ngFor="let proyecto of proyectosList" class="flex flex-col gap-14">
+        <img [src]="proyecto.photoUrl" class="rounded-4xl h-[40%]" alt="{{ proyecto.name }}">
+        <h3 class="text-5xl">{{ proyecto.name }}</h3>
+        <p class="font-lexend text-4xl">{{ proyecto.descripcion }}</p>
+        <div class="flex gap-10 text-4xl">
+          <a *ngIf="proyecto.linkgithub" [href]="proyecto.linkgithub" target="_blank">
+            <button class="bg-purple-900 rounded-2xl p-6 border border-purple-400 hover:bg-black">Código</button>
+          </a>
+          <a *ngIf="proyecto.linkpreview" [href]="proyecto.linkpreview" target="_blank">
+            <button class="bg-purple-900 rounded-2xl p-6 border border-purple-400 hover:bg-black">Ver</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  `,
   styleUrl: './proyectos.component.css'
 })
-export class ProyectosComponent {
 
+export class ProyectosComponent {
+  proyectosList: Proyecto[] = [
+    {
+      id: 0,
+      name: 'Rotten Tomatoes',
+      descripcion: 'Clon funcional del sitio Rotten Tomatoes con React Router y Tailwind con conexión a RapidApi.',
+      photoUrl: 'assets/img/rotten-tomatoes-img.png',
+      linkgithub: 'https://github.com/mrbravogil/Rotten-Tomatoes-Clone',
+      linkpreview: 'https://rotten-tomatoes-clone.vercel.app/',
+    },
+    {
+      id: 1,
+      name: 'Trivial Customizable',
+      descripcion: 'Juego de trivial personalizable por categorías.',
+      photoUrl: 'assets/img/custom-trivial-img.png',
+      linkgithub: 'https://github.com/mrbravogil/Trivial-Customizable',
+      linkpreview: 'https://trivial-customizable.vercel.app/',
+    }
+  ];
 }
+
+
+
+
