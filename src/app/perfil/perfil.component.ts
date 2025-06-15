@@ -10,8 +10,8 @@ import { Component } from '@angular/core';
       <h1 class="text-4xl">María Rosa Bravo Gil</h1>
       <p class="font-lexend text-2xl"><b class="text-purple-400">Desarrolladora de software junior</b>, enfocada  en el Fullstack. Actualmente apostando por <b class="text-purple-200">Angular & React</b>,   mejorando cada día. De Fuengirola (Málaga), España 🇪🇸</p>
       </div>
-      <div class="flex flex-col gap-12 text-xl">
-        <div class="flex flex-wrap gap-12">
+      <div class="flex flex-col gap-12">
+        <div class="flex flex-wrap gap-12 text-xl">
           <a href="https://www.linkedin.com/in/mrbravogil" target="_blank" class="flex items-center justify-center gap-4 bg-gray-900 rounded-4xl p-4 border border-purple-400 hover:bg-black">
             <img src="assets/img/linkedin-logo.png" class="w-15" alt="">LinkedIn
           </a>
