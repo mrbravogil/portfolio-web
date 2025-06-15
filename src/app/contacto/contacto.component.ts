@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
       <h2 class="text-2xl flex gap-12 items-center"><img src="assets/img/message.png" class="w-20" alt="">Contacto</h2>
       <div class="w-full lg:pl-30 flex flex-col gap-12 p-20 bg-purple-900 border border-purple-400 rounded-lg text-lg">
         <a href="mailto:mrbravogil@gmail.com" class="flex gap-6 hover:underline">
-          <img src="assets/img/mail-icon.png" class="w-5" alt="">mrbravogil&#64;gmail.com
+          <img src="assets/img/mail-icon.png" class="w-10" alt="">mrbravogil&#64;gmail.com
         </a>
         <a href="https://www.linkedin.com/in/mrbravogil" target="_blank" class="flex gap-6 hover:underline">
-          <img src="assets/img/linkedin-logo.png" class="w-5" alt="">LinkedIn
+          <img src="assets/img/linkedin-logo.png" class="w-10" alt="">LinkedIn
         </a>
         
       </div>
