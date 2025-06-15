@@ -9,15 +9,15 @@ import { Proyecto } from '../models/proyecto.model';
   imports: [CommonModule],
   template: `
     <div class="flex flex-col gap-20">
-      <h2 class="text-6xl flex gap-10 items-center">
+      <h2 class="text-4xl flex gap-10 items-center">
         <img src="assets/img/programming.png" class="w-20" alt=""> Proyectos
       </h2>
 
       <div *ngFor="let proyecto of proyectosList" class="flex flex-col gap-14">
         <img [src]="proyecto.photoUrl" class="rounded-4xl h-[40%]" alt="{{ proyecto.name }}">
-        <h3 class="text-5xl">{{ proyecto.name }}</h3>
-        <p class="font-lexend text-4xl">{{ proyecto.descripcion }}</p>
-        <div class="flex gap-10 text-4xl">
+        <h3 class="text-4xl">{{ proyecto.name }}</h3>
+        <p class="font-lexend text-3xl">{{ proyecto.descripcion }}</p>
+        <div class="flex gap-10 text-3xl">
           <a *ngIf="proyecto.linkgithub" [href]="proyecto.linkgithub" target="_blank">
             <button class="bg-purple-900 rounded-2xl p-6 border border-purple-400 hover:bg-black">Código</button>
           </a>
