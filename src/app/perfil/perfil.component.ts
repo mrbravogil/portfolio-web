@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   template: `
   <div class="flex flex-col gap-20 lg:pr[20%] ">
   <div class="flex flex-col gap-12">
-        <img src="assets/img/mariarosabravo-img.jpeg" alt="Foto de perfil" class="w-40 h-40 rounded-full object-cover shadow-lg border-4 border-white">
-      <h1 class="text-6xl">María Rosa Bravo Gil</h1>
+        <img src="assets/img/mariarosabravo-img.jpeg" alt="Foto de perfil" class="w-55 h-55 rounded-full object-cover shadow-lg border-4 border-white">
+      <h1 class="text-7xl">María Rosa Bravo Gil</h1>
       <p class="font-lexend text-4xl"><b class="text-purple-400">Desarrolladora de software junior</b>, enfocada  en el Fullstack. Actualmente apostando por <b class="text-purple-200">Angular & React</b>,   mejorando cada día. De Fuengirola (Málaga), España 🇪🇸</p>
       </div>
       <div class="flex flex-col gap-12">
