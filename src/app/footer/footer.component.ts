@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
   <div class="p-20 flex lg:items-center lg:justify-center border-t-4 border-t-purple-400">
-    <p class="text-white text-3xl p-10">Desarrollado con Angular y TailwindCSS</p>
+    <p class="text-white text-lg p-10">Desarrollado con Angular y TailwindCSS</p>
 
 </div>
   `,
