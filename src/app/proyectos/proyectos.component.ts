@@ -8,8 +8,8 @@ import { Proyecto } from '../models/proyecto.model';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <div class="flex flex-col gap-20">
-      <h2 class="text-2xl flex gap-10 items-center">
+    <div class="flex flex-col gap-10">
+      <h2 class="text-2xl flex gap-5 items-center">
         <img src="assets/img/programming.png" class="w-20" alt=""> Proyectos
       </h2>
 
@@ -19,10 +19,10 @@ import { Proyecto } from '../models/proyecto.model';
         <p class="font-lexend text-xl">{{ proyecto.descripcion }}</p>
         <div class="flex gap-10 text-xl">
           <a *ngIf="proyecto.linkgithub" [href]="proyecto.linkgithub" target="_blank">
-            <button class="bg-purple-900 rounded-2xl p-6 border border-purple-400 hover:bg-black">Código</button>
+            <button class="bg-purple-900 rounded-2xl p-3 border border-purple-400 hover:bg-black">Código</button>
           </a>
           <a *ngIf="proyecto.linkpreview" [href]="proyecto.linkpreview" target="_blank">
-            <button class="bg-purple-900 rounded-2xl p-6 border border-purple-400 hover:bg-black">Ver</button>
+            <button class="bg-purple-900 rounded-2xl p-3 border border-purple-400 hover:bg-black">Ver</button>
           </a>
         </div>
       </div>
