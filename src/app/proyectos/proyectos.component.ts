@@ -10,7 +10,7 @@ import { Proyecto } from '../models/proyecto.model';
   template: `
     <div class="flex flex-col gap-10">
       <h2 class="text-2xl flex gap-5 items-center">
-        <img src="assets/img/programming.png" class="w-20" alt=""> Proyectos
+        <img src="assets/img/programming.png" class="w-10" alt=""> Proyectos
       </h2>
 
       <div *ngFor="let proyecto of proyectosList" class="flex flex-col gap-14">
