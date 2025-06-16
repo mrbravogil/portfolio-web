@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
   <div class="flex flex-col gap-25">
-      <h2 class="text-2xl flex gap-12 items-center"><img src="assets/img/message.png" class="w-10" alt="">Contacto</h2>
+      <h2 class="text-3xl flex gap-12 items-center"><img src="assets/img/message.png" class="w-10" alt="">Contacto</h2>
       <div class="w-full lg:pl-5 flex flex-col gap-12 p-20 bg-purple-900 border border-purple-400 rounded-lg text-lg">
         <a href="mailto:mrbravogil@gmail.com" class="flex gap-6 hover:underline">
           <img src="assets/img/mail-icon.png" class="w-10" alt="">mrbravogil&#64;gmail.com

@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
   <div class="flex flex-col gap-20">
-      <h2 class="text-2xl">Stack Tecnológico</h2>
+      <h2 class="text-3xl">Stack Tecnológico</h2>
       <div class="flex flex-wrap gap-12 text-lg">
         <button class="flex items-center justify-center gap-6 bg-gray-900 rounded-4xl p-6 "><img src="assets/img/html-logo.png" class="w-5" alt="">HTML</button>
         <button class="flex items-center justify-center gap-6 bg-gray-900 rounded-4xl p-6 "><img src="assets/img/css-3-logo.png" class="w-5" alt="">CSS</button>

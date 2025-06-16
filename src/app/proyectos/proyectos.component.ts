@@ -9,7 +9,7 @@ import { Proyecto } from '../models/proyecto.model';
   imports: [CommonModule],
   template: `
     <div class="flex flex-col gap-10">
-      <h2 class="text-2xl flex gap-5 items-center">
+      <h2 class="text-3xl flex gap-5 items-center">
         <img src="assets/img/programming.png" class="w-10" alt=""> Proyectos
       </h2>
 
