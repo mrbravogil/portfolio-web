@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-footer',
   imports: [],
   template: `
-  <div class="p-10 flex lg:items-center lg:justify-center border-t-4 border-t-purple-400">
-    <p class="text-white text-lg p-10">Desarrollado con Angular y TailwindCSS</p>
+  <div class="p-10 flex items-center justify-center border-t-4 border-t-purple-400">
+    <p class="text-white text-center text-lg p-10">Desarrollado con Angular y TailwindCSS</p>
 
 </div>
   `,
