@@ -14,8 +14,8 @@ import { StackComponent } from "./stack/stack.component";
   <main class="w-full min-h-screen bg-gradient-to-b from-purple-950 to-gray-900 font-special text-white relative">
   <header class="w-full"><app-header></app-header></header>
   <section class="">
-    <div class="grid grid-cols-1 lg:grid-cols-2 p-[8%] lg:p-[8%] gap-16">
-      <div class="flex flex-col gap-22 lg:pr-[20%]">
+    <div class="grid grid-cols-1 lg:grid-cols-2 p-[8%] lg:p-[8%] gap-10">
+      <div class="flex flex-col gap-15 lg:pr-[20%]">
         <app-perfil></app-perfil>
         <app-stack></app-stack>
         <app-contacto></app-contacto>
