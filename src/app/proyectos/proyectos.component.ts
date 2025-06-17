@@ -8,16 +8,16 @@ import { Proyecto } from '../models/proyecto.model';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <div class="flex flex-col gap-10">
+    <div class="flex flex-col gap-15">
       <h2 class="text-3xl flex gap-5 items-center">
         <img src="assets/img/programming.png" class="w-10" alt=""> Proyectos
       </h2>
 
-      <div *ngFor="let proyecto of proyectosList" class="flex flex-col gap-14">
+      <div *ngFor="let proyecto of proyectosList" class="flex flex-col gap-10">
         <img [src]="proyecto.photoUrl" class="rounded-4xl h-[40%]" alt="{{ proyecto.name }}">
         <h3 class="text-2xl">{{ proyecto.name }}</h3>
         <p class="font-lexend text-xl">{{ proyecto.descripcion }}</p>
-        <div class="flex gap-10 text-xl">
+        <div class="flex gap-10 text-md lg:text-lg">
           <a *ngIf="proyecto.linkgithub" [href]="proyecto.linkgithub" target="_blank">
             <button class="bg-purple-900 rounded-2xl p-3 border border-purple-400 hover:bg-black">Código</button>
           </a>
