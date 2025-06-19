@@ -8,7 +8,7 @@ import { StackComponent } from "./stack/stack.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, PerfilComponent, StackComponent, ContactoComponent, ProyectosComponent, FooterComponent, HeaderComponent],
+  imports: [RouterOutlet, PerfilComponent, StackComponent, ProyectosComponent, FooterComponent, HeaderComponent],
   template: `
   <main class="w-full min-h-screen bg-gradient-to-b from-purple-950 to-gray-900 font-special text-white relative">
   <header class="w-full"><app-header></app-header></header>

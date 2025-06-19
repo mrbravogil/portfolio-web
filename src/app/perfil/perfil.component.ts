@@ -10,8 +10,8 @@ import { Component } from '@angular/core';
     <!-- Bloque de presentación -->
     <div class="flex flex-col items-center lg:items-start gap-6 text-center lg:text-left">
       <img src="assets/img/mariarosabravo-img.jpeg"
-           alt="Foto de perfil"
-           class="w-36 h-36 sm:w-44 sm:h-44 lg:w-56 lg:h-56 rounded-full object-cover border-4 border-white shadow-lg" />
+          alt="Foto de perfil"
+          class="w-36 h-36 sm:w-44 sm:h-44 lg:w-56 lg:h-56 rounded-full object-cover border-4 border-white shadow-lg" />
 
       <h1 class="text-3xl sm:text-4xl lg:text-6xl font-bold">María Rosa Bravo Gil</h1>
 
