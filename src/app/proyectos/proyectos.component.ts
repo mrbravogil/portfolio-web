@@ -19,10 +19,10 @@ import { Proyecto } from '../models/proyecto.model';
         <p class="font-lexend text-lg lg:text-xl">{{ proyecto.descripcion }}</p>
         <div class="flex gap-5 lg:gap-10 text-md lg:text-lg">
           <a *ngIf="proyecto.linkgithub" [href]="proyecto.linkgithub" target="_blank">
-            <button class="w-[100px] bg-purple-900 rounded-2xl p-2 lg:p-3 border border-purple-400 hover:bg-black">Código</button>
+            <button class="w-[100px] bg-purple-900 rounded-2xl p-2 lg:p-3 border border-purple-400 cursor-pointer hover:bg-black">Código</button>
           </a>
           <a *ngIf="proyecto.linkpreview" [href]="proyecto.linkpreview" target="_blank">
-            <button class="w-[100px] bg-purple-900 rounded-2xl p-2 lg:p-3 border border-purple-400 hover:bg-black">Ver</button>
+            <button class="w-[100px] bg-purple-900 rounded-2xl p-2 lg:p-3 border border-purple-400 cursor-pointer hover:bg-black">Ver</button>
           </a>
         </div>
       </div>
@@ -44,7 +44,7 @@ export class ProyectosComponent {
     {
       id: 1,
       name: 'Trivial Customizable',
-      descripcion: 'Juego de trivial personalizable por categorías.',
+      descripcion: 'Juego de trivial personalizable por categorías con React Router, Tailwind y Node.js. Bases de datos gestionada con MySQL y Prisma.',
       photoUrl: 'assets/img/custom-trivial-img.png',
       linkgithub: 'https://github.com/mrbravogil/Trivial-Customizable',
       linkpreview: 'https://trivial-customizable.vercel.app/',
