@@ -18,7 +18,6 @@ import { StackComponent } from "./stack/stack.component";
       <div class="flex flex-col gap-15 lg:pr-[20%]">
         <app-perfil></app-perfil>
         <app-stack></app-stack>
-        <app-contacto></app-contacto>
       </div>
       <app-proyectos></app-proyectos>
     </div>

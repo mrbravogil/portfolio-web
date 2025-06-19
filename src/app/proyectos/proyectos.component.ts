@@ -15,14 +15,14 @@ import { Proyecto } from '../models/proyecto.model';
 
       <div *ngFor="let proyecto of proyectosList" class="flex flex-col gap-10">
         <img [src]="proyecto.photoUrl" class="rounded-4xl h-[40%]" alt="{{ proyecto.name }}">
-        <h3 class="text-2xl">{{ proyecto.name }}</h3>
+        <h3 class="text-3xl">{{ proyecto.name }}</h3>
         <p class="font-lexend text-lg lg:text-xl">{{ proyecto.descripcion }}</p>
         <div class="flex gap-5 lg:gap-10 text-md lg:text-lg">
           <a *ngIf="proyecto.linkgithub" [href]="proyecto.linkgithub" target="_blank">
-            <button class="bg-purple-900 rounded-2xl p-2 lg:p-3 border border-purple-400 hover:bg-black">Código</button>
+            <button class="w-[100px] bg-purple-900 rounded-2xl p-2 lg:p-3 border border-purple-400 hover:bg-black">Código</button>
           </a>
           <a *ngIf="proyecto.linkpreview" [href]="proyecto.linkpreview" target="_blank">
-            <button class="bg-purple-900 rounded-2xl p-2 lg:p-3 border border-purple-400 hover:bg-black">Ver</button>
+            <button class="w-[100px] bg-purple-900 rounded-2xl p-2 lg:p-3 border border-purple-400 hover:bg-black">Ver</button>
           </a>
         </div>
       </div>

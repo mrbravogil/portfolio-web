@@ -11,17 +11,17 @@ import { Component } from '@angular/core';
       <p class="font-lexend text-xl lg:text-3xl"><b class="text-purple-400">Desarrolladora de software junior</b>, enfocada  en el Fullstack. Actualmente apostando por <b class="text-purple-200">Angular & React</b>,   mejorando cada día. De Fuengirola (Málaga), España 🇪🇸</p>
       </div>
       <div class="flex flex-col">
-        <div class="flex flex-wrap gap-8 text-md">
-          <a href="https://www.linkedin.com/in/mrbravogil" target="_blank" class="flex items-center justify-center gap-3 bg-gray-900 rounded-4xl p-3 lg:p-4 border border-purple-400 hover:bg-black">
+        <div class="flex flex-wrap gap-5 lg:gap-8 text-md">
+          <a href="https://www.linkedin.com/in/mrbravogil" target="_blank" class="w-[42%] lg:w-[15%] flex items-center justify-center gap-2 bg-gray-900 rounded-4xl p-3 lg:p-4 border border-purple-400 hover:bg-black">
             <img src="assets/img/linkedin-logo.png" class="w-5" alt="">LinkedIn
           </a>
-          <a href="https://github.com/mrbravogil" target="_blank" class="flex items-center justify-center gap-3 bg-gray-900 rounded-4xl p-3 lg:p-4 border border-purple-400 hover:bg-black">
+          <a href="https://github.com/mrbravogil" target="_blank" class="w-[42%] lg:w-[15%] flex items-center justify-center gap-2 bg-gray-900 rounded-4xl p-3 lg:p-4 border border-purple-400 hover:bg-black">
             <img src="assets/img/github-logo.png" class="w-5" alt="">GitHub
           </a>
-          <a href="mailto:mrbravogil@gmail.com" class="flex items-center justify-center gap-3 bg-gray-900 rounded-4xl p-3 lg:p-4 border border-purple-400 hover:underline hover:bg-black">
-            <img src="assets/img/mail-icon.png" class="w-5" alt="">mrbravogil&#64;gmail.com
+          <a href="mailto:mrbravogil@gmail.com" class="w-[42%] lg:w-[15%] flex items-center justify-center gap-2 bg-gray-900 rounded-4xl p-3 lg:p-4 border border-purple-400 hover:underline hover:bg-black">
+            <img src="assets/img/mail-icon.png" class="w-5" alt="">Email
           </a>
-          <a href="assets/docs/MariaRosaBravo-CV2025-es.pdf" download class="flex items-center justify-center gap-2 bg-gray-900 rounded-4xl p-3 lg:p-4 border border-purple-400 hover:bg-black">
+          <a href="assets/docs/MariaRosaBravo-CV2025-es.pdf" download class="w-[42%] lg:w-[15%] flex items-center justify-center gap-2 bg-gray-900 rounded-4xl p-3 lg:p-4 border border-purple-400 hover:bg-black">
             <img src="assets/img/filedownload-icon.png" class="w-5" alt="">CV
           </a>
         </div>
