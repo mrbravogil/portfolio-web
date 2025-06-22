@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-contacto',
+  standalone: true,
   imports: [],
   template: `
   <div class="w-full flex flex-col gap-10 lg:gap-20">

@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
     <div class="w-full max-w-screen-lg mx-auto px-4 flex flex-col gap-10 lg:gap-16">
       <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold">Stack Tecnológico</h2>
 
-      <div class="flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 font-lexend text-sm sm:text-base lg:text-lg">
+      <div class="flex flex-wrap lg:justify-start gap-4 sm:gap-6 font-lexend text-sm sm:text-base lg:text-lg">
         <button class="w-[47%] sm:w-[40%] lg:w-[37%] flex items-center justify-center gap-2 sm:gap-4 bg-black rounded-3xl p-3 lg:p-4">
           <img src="assets/img/html-logo.png" class="w-5 sm:w-6" alt="">HTML
         </button>

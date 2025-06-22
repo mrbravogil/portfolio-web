@@ -8,14 +8,14 @@ import { Component } from '@angular/core';
   <div class="w-full max-w-screen-lg mx-auto px-4 flex flex-col gap-12 lg:gap-20 lg:pr-[10%]">
 
     <!-- Bloque de presentación -->
-    <div class="flex flex-col items-center lg:items-start gap-6 text-center lg:text-left">
+    <div class="flex flex-col lg:items-start gap-6 text-center lg:text-left">
       <img src="assets/img/mariarosabravo-img.jpeg"
           alt="Foto de perfil"
           class="w-36 h-36 sm:w-44 sm:h-44 lg:w-56 lg:h-56 rounded-full object-cover border-4 border-white shadow-lg" />
 
       <h1 class="text-3xl sm:text-4xl lg:text-6xl font-bold">María Rosa Bravo Gil</h1>
 
-      <p class="font-lexend text-base sm:text-lg lg:text-2xl leading-relaxed max-w-2xl">
+      <p class="text-left font-lexend text-base sm:text-lg lg:text-2xl leading-relaxed max-w-2xl">
         <b class="text-purple-400">Desarrolladora de software junior</b>, enfocada en el Fullstack.
         Actualmente apostando por <b class="text-purple-200">Angular & React</b>,
         mejorando cada día. De Fuengirola (Málaga), España 🇪🇸
@@ -23,7 +23,7 @@ import { Component } from '@angular/core';
     </div>
 
     <!-- Enlaces -->
-    <div class="flex flex-wrap gap-4 justify-center lg:justify-start">
+    <div class="flex flex-wrap gap-4 lg:justify-start">
       <a href="https://www.linkedin.com/in/mrbravogil" target="_blank"
          class="flex items-center gap-2 px-5 py-3 text-sm sm:text-base lg:text-lg bg-gray-900 rounded-3xl border border-purple-400 hover:bg-black transition">
         <img src="assets/img/linkedin-logo.png" class="w-5 sm:w-6" alt="">LinkedIn
