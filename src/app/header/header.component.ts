@@ -5,7 +5,11 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-  <a href="" class="flex p-10 text-xl absolute right-15 top-5 hover:underline"></a>
+  <div class="flex p-10 text-xl absolute right-15 top-5 gap-3">
+  <a href="" class="hover:underline">EN</a>
+  <p>/</p>
+  <a href="" class="hover:underline">ES</a>
+  </div>
   `,
   styleUrl: './header.component.css'
 })
