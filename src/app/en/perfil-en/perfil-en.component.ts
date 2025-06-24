@@ -36,7 +36,7 @@ import { Component } from '@angular/core';
          class="flex items-center gap-2 px-5 py-3 text-sm sm:text-base lg:text-lg bg-gray-900 rounded-3xl border border-purple-400 hover:bg-black hover:underline transition">
         <img src="assets/img/mail-icon.png" class="w-5 sm:w-6" alt="">Email
       </a>
-      <a href="assets/docs/MariaRosaBravo-CV2025-es.pdf" download
+      <a href="assets/docs/MariaRosaBravo-CV2025-en.pdf" download
          class="flex items-center gap-2 px-5 py-3 text-sm sm:text-base lg:text-lg bg-gray-900 rounded-3xl border border-purple-400 hover:bg-black transition">
         <img src="assets/img/filedownload-icon.png" class="w-5 sm:w-6" alt="">CV
       </a>
