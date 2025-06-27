@@ -39,7 +39,7 @@ export class ProyectosComponent {
       descripcion: 'Clon funcional del sitio Rotten Tomatoes con React Router y Tailwind con conexión a RapidApi.',
       photoUrl: 'assets/img/rotten-tomatoes-img.png',
       linkgithub: 'https://github.com/mrbravogil/Rotten-Tomatoes-Clone',
-      linkpreview: 'https://rotten-tomatoes-clone.vercel.app/',
+      linkpreview: '',
     },
     {
       id: 1,
@@ -47,7 +47,7 @@ export class ProyectosComponent {
       descripcion: 'Juego de trivial personalizable por categorías con React Router, Tailwind y Node.js. Bases de datos gestionada con MySQL y Prisma.',
       photoUrl: 'assets/img/custom-trivial-img.png',
       linkgithub: 'https://github.com/mrbravogil/Trivial-Customizable',
-      linkpreview: 'https://trivial-customizable.vercel.app/',
+      linkpreview: '',
     }
   ];
 }
