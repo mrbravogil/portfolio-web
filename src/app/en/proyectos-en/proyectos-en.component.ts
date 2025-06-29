@@ -39,7 +39,7 @@ export class ProyectosComponent {
       descripcion: 'Functional clone of the Rotten Tomatoes website using React Router and Tailwind, with integration to RapidAPI.',
       photoUrl: 'assets/img/rotten-tomatoes-img.png',
       linkgithub: 'https://github.com/mrbravogil/Rotten-Tomatoes-Clone',
-      linkpreview: '',
+      linkpreview: 'https://rotten-tomatoes-clone-maria-rosa-bravo-s-projects.vercel.app/',
     },
     {
       id: 1,
