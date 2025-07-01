@@ -36,7 +36,7 @@ export class ProyectosComponent {
     {
       id: 0,
       name: 'Rotten Tomatoes',
-      descripcion: 'Clon funcional del sitio Rotten Tomatoes con React Router y Tailwind con conexión a RapidApi.',
+      descripcion: 'Clon funcional del sitio Rotten Tomatoes con React Router y Tailwind con conexión a datos desde el Frontend. Versión con Backend en repositorio Github usando Node.js, Express, Prisma y MySQL.',
       photoUrl: 'assets/img/rotten-tomatoes-img.png',
       linkgithub: 'https://github.com/mrbravogil/Rotten-Tomatoes-Clone',
       linkpreview: 'https://rotten-tomatoes-clone-maria-rosa-bravo-s-projects.vercel.app/',
