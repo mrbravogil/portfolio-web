@@ -43,11 +43,11 @@ export class ProyectosComponent {
     },
     {
       id: 1,
-      name: 'Customizable Trivial',
-      descripcion: 'Customizable trivia game by categories using React Router, Tailwind, and Node.js. Database managed with MySQL and Prisma.',
+      name: 'Question Card - Customizable Trivial',
+      descripcion: 'Developed a dynamic question card component that loads questions based on selected categories or uploaded files. It allows team-specific responses, real-time feedback, and saves results via backend integration for later review by educators. Built with React, utilizing React Router and Hooks for dynamic UI and state management, styled with Tailwind CSS. Zustand was used for global state handling. The backend was developed with Node.js and Express, with Prisma as the ORM and MySQL as the database.',
       photoUrl: 'assets/img/custom-trivial-img.png',
       linkgithub: 'https://github.com/mrbravogil/Trivial-Customizable',
-      linkpreview: '',
+      linkpreview: 'https://youtu.be/QwUGD5fFMAw',
     }
     
   ];
