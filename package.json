@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:all": "ng build --configuration=es,production && ng build --configuration=en,production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

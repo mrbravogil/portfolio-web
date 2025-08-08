@@ -10,10 +10,10 @@
       <p class="font-lexend text-md">{{ proyecto.descripcion }}</p>
       <div class="flex gap-5 lg:gap-5 text-sm">
         <a *ngIf="proyecto.linkgithub" [href]="proyecto.linkgithub" target="_blank">
-          <button class="w-[80px] flex items-center justify-center bg-purple-900 rounded-2xl p-2 lg:p-3 border border-purple-400 cursor-pointer hover:bg-black">Código</button>
+          <button i18n class="w-[80px] flex items-center justify-center bg-purple-900 rounded-2xl p-2 lg:p-3 border border-purple-400 cursor-pointer hover:bg-black">Código</button>
         </a>
         <a *ngIf="proyecto.linkpreview" [href]="proyecto.linkpreview" target="_blank">
-          <button class="w-[80px] flex items-center justify-center bg-purple-900 rounded-2xl p-2 lg:p-3 border border-purple-400 cursor-pointer hover:bg-black">Ver</button>
+          <button i18n class="w-[80px] flex items-center justify-center bg-purple-900 rounded-2xl p-2 lg:p-3 border border-purple-400 cursor-pointer hover:bg-black">Ver</button>
         </a>
       </div>
     </section>

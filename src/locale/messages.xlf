@@ -23,6 +23,20 @@
           <context context-type="linenumber">3,6</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="8092481494731054331" datatype="html">
+        <source>Código</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/components/side-menu/proyectos/proyectos.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="59263784021573736" datatype="html">
+        <source>Ver</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/components/side-menu/proyectos/proyectos.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="proj.rotten-tomatoes.name" datatype="html">
         <source>Rotten Tomatoes</source>
         <context-group purpose="location">
