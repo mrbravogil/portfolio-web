@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="3356010732746715051" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b class=&quot;text-purple-400&quot;&gt;"/>Desarrolladora de software junior.<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> Actualmente apostando por <x id="START_BOLD_TEXT_1" equiv-text="&lt;b class=&quot;text-purple-200&quot;&gt;"/>Angular &amp; React<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, mejorando cada día desde España 🇪🇸 </source>
+        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b class=&quot;text-purple-400&quot;&gt;"/>Junior software developer<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, focused on <x id="START_BOLD_TEXT_1" equiv-text="&lt;b class=&quot;text-purple-200&quot;&gt;"/>Angular &amp; React<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, improving every day from Spain 🇪🇸 </target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/components/perfil/perfil.component.html</context>
+          <context context-type="linenumber">14,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7999028793522602015" datatype="html">
+        <source>Desarrollado con Angular y TailwindCSS</source>
+        <target>Built using Angular &amp; TailwindCSS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/components/side-menu/footer/footer.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1758129431161118752" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;assets/img/programming.png&quot; class=&quot;w-10&quot; alt=&quot;&quot;&gt;"/> Proyectos </source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;assets/img/programming.png&quot; class=&quot;w-10&quot; alt=&quot;&quot;&gt;"/> Projects </target>
+        
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/components/side-menu/proyectos/proyectos.component.html</context>
+          <context context-type="linenumber">3,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="proj.rotten-tomatoes.name" datatype="html">
+        <source>Rotten Tomatoes</source>
+        <target>Rotten Tomatoes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/components/side-menu/proyectos/proyectos.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="proj.rotten-tomatoes.desc" datatype="html">
+        <source>Clon funcional del sitio Rotten Tomatoes con React Router y Tailwind con conexión a datos desde el Frontend. Versión con Backend en repositorio Github usando Node.js, Express, Prisma y MySQL.</source>
+        <target>Functional clone of the Rotten Tomatoes site using React Router and Tailwind, connecting to data from the frontend. Backend version in Github repository using Node.js, Express, Prisma, and MySQL.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/components/side-menu/proyectos/proyectos.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="proj.trivial.name" datatype="html">
+        <source>Tarjeta Pregunta - Trivial Personalizable</source>
+        <target>Question Card - Customizable Trivial</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/components/side-menu/proyectos/proyectos.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="proj.trivial.desc" datatype="html">
+        <source>Componente dinámico de tarjeta de preguntas construido con React, Tailwind CSS, Node.js y Express, utilizando Prisma como ORM y MySQL como base de datos.</source>
+        <target>Dynamic question card component that loads questions based on selected categories or uploaded files. Built with React, Tailwind CSS, Node.js y Express, used Prisma as ORM and built a MySQL database.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/components/side-menu/proyectos/proyectos.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3045400085479180755" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;/assets/img/code-icon.png&quot; class=&quot;w-8&quot; alt=&quot;&quot;&gt;"/>Stack Tecnológico</source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;/assets/img/code-icon.png&quot; class=&quot;w-8&quot; alt=&quot;&quot;&gt;"/>Tech Stack</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/components/side-menu/stack/stack.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
