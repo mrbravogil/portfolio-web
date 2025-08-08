@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { FooterComponent } from "../../en/footer-en/footer-en.component";
-import { HeaderComponent } from "../../en/header-en/header-en.component";
-import { PerfilComponent } from "../../en/perfil-en/perfil-en.component";
-import { ProyectosComponent } from "../../en/proyectos-en/proyectos-en.component";
-import { StackComponent } from "../../en/stack-en/stack.component";
+import { FooterComponent } from '../../home/en/footer-en/footer-en.component';
+import { HeaderComponent } from "../../home/en/header-en/header-en.component";
+import { PerfilComponent } from "../../home/en/perfil-en/perfil-en.component";
+import { ProyectosComponent } from "../../home/en/proyectos-en/proyectos-en.component";
+import { StackComponent } from "../../home/en/stack-en/stack.component";
 
 @Component({
   selector: 'app-home-en',
@@ -26,7 +26,6 @@ import { StackComponent } from "../../en/stack-en/stack.component";
 </main>
     
   `,
-  styleUrl: './home-en.component.css'
 })
 export class HomeEnComponent {
 

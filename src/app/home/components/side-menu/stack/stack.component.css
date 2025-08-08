@@ -1,0 +1,24 @@
+button {
+    width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; /* Por defecto */
+  background-color: #13161b;
+  border-radius: 1.5rem; /* 3xl */
+  padding: 0.6rem; /* p-3 */
+}
+
+@media (min-width: 640px) {
+    .button {
+      width: 35%;
+      gap: 1rem; /* sm:gap-4 */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .button {
+      width: 22%;
+      padding: 1rem; /* lg:p-4 */
+    }
+  }
