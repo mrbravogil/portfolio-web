@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="3356010732746715051" datatype="html">
         <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b class=&quot;text-purple-400&quot;&gt;"/>Desarrolladora de software junior.<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> Actualmente apostando por <x id="START_BOLD_TEXT_1" equiv-text="&lt;b class=&quot;text-purple-200&quot;&gt;"/>Angular &amp; React<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, mejorando cada día desde España 🇪🇸 </source>
-        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b class=&quot;text-purple-400&quot;&gt;"/>Junior software developer<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, focused on <x id="START_BOLD_TEXT_1" equiv-text="&lt;b class=&quot;text-purple-200&quot;&gt;"/>Angular &amp; React<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, improving every day from Spain 🇪🇸 </target>
+        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b class=&quot;text-purple-400&quot;&gt;"/>Junior software developer.<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> focused on <x id="START_BOLD_TEXT_1" equiv-text="&lt;b class=&quot;text-purple-200&quot;&gt;"/>Angular &amp; React<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, improving every day from Spain 🇪🇸 </target>
 
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/components/perfil/perfil.component.html</context>
