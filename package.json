@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:all": "ng build --configuration=es --configuration=production && ng build --configuration=en --configuration=production --delete-output-path=false",
+    "build:all": "ng build -c es-prod && ng build -c en-prod --delete-output-path=false",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
