@@ -74,8 +74,18 @@
               "extractLicenses": false,
               "sourceMap": true
             },
-            "es": { "localize": ["es"], "baseHref": "/" },
-            "en": { "localize": ["en"], "baseHref": "/en/" }
+                "es": {
+                  "localize": ["es"],
+                  "baseHref": "/",
+                  "outputPath": "dist/browser",
+                  "optimization": true
+                },
+                "en": {
+                  "localize": ["en"],
+                  "baseHref": "/",
+                  "outputPath": "dist/browser/en",
+                  "optimization": true
+                }
           },
           "defaultConfiguration": "production"
         },

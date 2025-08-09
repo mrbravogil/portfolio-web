@@ -1,13 +1,8 @@
 {
   "cleanUrls": true,
-  "redirects": [
-    { "source": "/", "destination": "/es", "permanent": false }
-  ],
   "rewrites": [
-    { "source": "/es", "destination": "/es/index.html" },
-    { "source": "/es/(.*)", "destination": "/es/index.html" },
-    { "source": "/en", "destination": "/en/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" },
     { "source": "/en/(.*)", "destination": "/en/index.html" }
+    
   ]
 }
-
