@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { Proyecto } from '../../../../models/proyecto.model';
+import { Proyecto } from '../../../../interfaces/proyecto.interface';
 
 
 @Component({
