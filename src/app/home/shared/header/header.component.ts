@@ -1,5 +1,6 @@
-import { Component, inject } from '@angular/core';
-import { Router, RouterModule } from '@angular/router';
+import { Component, inject, LOCALE_ID, signal } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { AvailableLocale, LocalService } from '../../../services/local.service';
 
 @Component({
   selector: 'app-header',
@@ -8,23 +9,12 @@ import { Router, RouterModule } from '@angular/router';
   templateUrl: './header.component.html',
 })
 export class HeaderComponent {
-  private router = inject(Router);
-
-  get isEnglish(): boolean {
-    return typeof window !== 'undefined' && window.location.pathname.startsWith('/en');
-  }
-
-  goTo(locale: 'es' | 'en') {
-    // Ruta actual (con posible /en delante)
-    const url = this.router.url; // incluye query/fragment
-    const withoutEn = url.replace(/^\/en(?=\/|$)/, ''); // quita el prefijo /en si existe
-
-    // Construye destino manteniendo ruta, query y fragment
-    const target = locale === 'en' ? `/en${withoutEn || '/'}` : (withoutEn || '/');
-
-    if (target !== url) {
-      this.router.navigateByUrl(target);
-    }
+   localeService = inject(LocalService);
+    currentLocale = signal(inject(LOCALE_ID));
+  
+    changeLocale(locale: AvailableLocale){
+      console.log({ locale });
+      this.localeService.changeLocale(locale);
   }
 
 }
