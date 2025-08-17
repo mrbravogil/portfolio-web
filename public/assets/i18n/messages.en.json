@@ -7,6 +7,8 @@
   "1758129431161118752": "Projects",
   "8092481494731054331": "Code",
   "59263784021573736": "View",
+  "proj.zen-app.name": "Zen App",
+  "proj.zen-app.desc": "Quotes API with a Angular frontend and Spring Boot backend. Uses Supabase for the database and is deployed on Render. Currently running locally.",
   "proj.rotten-tomatoes.name": "Rotten Tomatoes",
   "proj.rotten-tomatoes.desc": "Functional clone of the Rotten Tomatoes site using React Router and Tailwind, connecting to data from the frontend. Backend version in Github repository using Node.js, Express, Prisma, and MySQL.",
   "proj.trivial.name": "Question Card - Customizable Trivial",

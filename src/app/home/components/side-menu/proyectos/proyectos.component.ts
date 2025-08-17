@@ -12,6 +12,7 @@ import { Proyecto } from '../../../../interfaces/proyecto.interface';
 
 export class ProyectosComponent {
   proyectosList: Proyecto[] = [
+
     {
       id: 0,
       name: $localize`:@@proj.rotten-tomatoes.name:Rotten Tomatoes`,
@@ -22,6 +23,15 @@ export class ProyectosComponent {
     },
     {
       id: 1,
+      name: $localize`:@@proj.zen-app.name:Zen App`,
+      descripcion: $localize`:@@proj.zen-app.desc:API de citas con un frontend en Angular y un backend en Spring Boot. Usa Supabase como base de datos y está desplegada en Render. Actualmente se ejecuta de forma local.`,
+      photoUrl: 'assets/img/zen-app-img.png',
+      linkgithub: 'https://github.com/mrbravogil/zen-app',
+      linkpreview: '',
+    },
+    
+    {
+      id: 2,
       name:  $localize`:@@proj.trivial.name:Tarjeta Pregunta - Trivial Personalizable`,
       descripcion: $localize`:@@proj.trivial.desc:Componente dinámico de tarjeta de preguntas construido con React, Tailwind CSS, Node.js y Express, utilizando Prisma como ORM y MySQL como base de datos.`,
       photoUrl: 'assets/img/custom-trivial-img.png',
